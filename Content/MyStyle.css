@@ -1,0 +1,89 @@
+﻿h2 {
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    font-style: normal;
+    color: white;
+    padding-top: 30px;
+    /*   background-color: darkgreen;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;*/
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    color: darkgreen;
+}
+
+h6 {
+    color: white;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.buttonColor {
+    background-color: darkgreen;
+    width: 165px;
+    color: white;
+}
+
+.container-size {
+    width: 800px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.container-box {
+    border-radius: 25px;
+    border: 1px solid #757D75;
+    background-color: lightgrey;
+}
+
+.round-border {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+/*#border {
+    border-radius: 25px;
+}*/
+
+.button-attr {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: grey;
+    font-weight: bold;
+}
+
+.border-class1 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 50px;
+}
+
+.border-class2 {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.required::after {
+    content: ' *';
+    color: red;
+}
+
+.textbox-size {
+    height: 29px;
+    width: 150px;
+}
+
+.address {
+    height: 60px;
+    width: 150px;
+}
